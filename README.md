@@ -1,1 +1,1 @@
-This tool obtains the current price of BTC using the Python libraries requests and BeautifulSoup 
+This Python tool gets the current price of BTC using the libraries requests and BeautifulSoup 
