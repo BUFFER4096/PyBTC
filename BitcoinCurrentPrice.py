@@ -26,7 +26,7 @@ while 1:
     try:
         print("Current BTC price: "+BS(requests.get("https://cryptowat.ch/it-it/").text, "html.parser").find("span", attrs={"class": "_3XNm6CSrchU-MNbu1Zh3m2"}).text, end="\r")
     except:
-        pass
+        check = 1
     
     if check == 0:
         time.sleep(3)
